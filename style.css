@@ -256,10 +256,16 @@ a {
     display: flex;
     justify-content: center;
     font-size: x-large;
+    
 }
 .bienvenidos{
     /* Sirve para que se agrande o achique la letra segun la pantalla que tenemos, es bien responsive. */
     font-size: clamp(12px, 3vw, 20px);
+    transition-property: all;
+    transition-duration: 2s ;
+}
+.bienvenidos:hover{
+    transform: scale(1.5);
 }
 /* Fin Seccion Bienvenidos a Clinica index */
 
