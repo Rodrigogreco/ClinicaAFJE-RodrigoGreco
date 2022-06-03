@@ -289,7 +289,6 @@ main {
 }
 
 .carousel-container {
-    border: 1px solid black;
     width: 60%;
     display: flex;
     justify-content: center;
@@ -335,7 +334,7 @@ main {
         justify-content: center;
     }
     .div2 { grid-area: 1 / 2 / 5 / 2;
-        border: 1px solid black;
+        
     }
     .div2 p{
         display: flex;
@@ -363,8 +362,33 @@ main {
     
     
     .div3 { grid-area: 1 / 3 / 5 / 4; 
-        border: 1px solid blue;
+        
+        
     }
+    .div3 p{
+        display: flex;
+        justify-content: center;
+    }
+    .div3 ul{
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+        
+        
+    }
+    .div3 ul li {
+        list-style: none;
+        font-size: small;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .horarios{
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
     .div4 { grid-area: 1 / 4 / 5 / 5; 
         border: 1px solid red;
     }
