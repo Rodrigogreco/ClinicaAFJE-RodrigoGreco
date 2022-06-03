@@ -309,16 +309,7 @@ main {
 
 /* Inicio seccion Footer */
 
-/* footer {
-    width: 100%;
-    padding: 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
 
-
-} */
 .parent {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -390,59 +381,30 @@ main {
     }
 
     .div4 { grid-area: 1 / 4 / 5 / 5; 
-        border: 1px solid red;
+        
+    }
+    .div4 p{
+        display: flex;
+        justify-content: center;
+    }
+    .div4 ul{
+        display: flex;
+        width: 100%;
+        margin-top: 30px;
+        
+        
+        
+    }
+    .div4 ul li {
+        list-style: none;
+        justify-content: flex-start;
+        display: flex;
+        
+        width: 100%;
+        
     }
 
-/* .face {
 
-    width: 20px;
-    height: 20px;
-    margin-bottom: 10px;
-
-}
-
-.Link-facebook {
-    display: flex;
-    margin-left: 40px;
-
-    flex-wrap: wrap;
-}
-
-.insta {
-    width: 20px;
-    height: 20px;
-    margin-bottom: 10px;
-}
-
-.tw {
-    width: 20px;
-    height: 20px;
-
-}
-
-.p1 {
-    display: flex;
-
-    color: black;
-    list-style: none;
-
-    margin-bottom: 16px;
-
-}
-
-.p2 {
-
-    display: flex;
-
-    color: black;
-
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-} */
-/* Fin Seccion Footer */
 
 
 /* Medias Queris */
