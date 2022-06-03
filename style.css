@@ -298,7 +298,6 @@ main {
 
 .aside-placeholder {
     height: 500px;
-    background-color: red;
     width: 400px;
     margin-left: 15px;
 }
@@ -311,7 +310,7 @@ main {
 
 /* Inicio seccion Footer */
 
-footer {
+/* footer {
     width: 100%;
     padding: 16px;
     display: flex;
@@ -320,9 +319,57 @@ footer {
     margin-top: 20px;
 
 
-}
+} */
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    
+    margin-top: 30px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 5 / 2; 
+        display: flex;
+        justify-content: center;
+    }
+    .div2 { grid-area: 1 / 2 / 5 / 2;
+        border: 1px solid black;
+    }
+    .div2 p{
+        display: flex;
+        justify-content: center;
+    }
+    .div2 ul{
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+        
+        
+    }
+    .div2 ul li {
+        list-style: none;
+        font-size: small;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .telefono{
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    
+    
+    .div3 { grid-area: 1 / 3 / 5 / 4; 
+        border: 1px solid blue;
+    }
+    .div4 { grid-area: 1 / 4 / 5 / 5; 
+        border: 1px solid red;
+    }
 
-.face {
+/* .face {
 
     width: 20px;
     height: 20px;
@@ -370,7 +417,7 @@ footer {
 ul {
     list-style: none;
     padding: 0;
-}
+} */
 /* Fin Seccion Footer */
 
 
