@@ -404,6 +404,21 @@ main {
         width: 100%;
         
     }
+    .img1-footer{
+        transition: all 1s ease-in-out;
+        
+    }
+    .img1-footer:hover{
+        transform: rotate(360deg);
+    }
+    .img2-footer{
+        transition: all 1s ease-in-out;
+        
+    }
+    .img2-footer:hover{
+        transform: rotate(360deg);
+    }
+
 
 
 
